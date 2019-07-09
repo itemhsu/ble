@@ -1,0 +1,1000 @@
+ 1023  cd OV5640-Camera-Board-\(C\)-Code/
+ 1024  ls
+ 1025  ll
+ 1026  cd OV5640_F429I-C/
+ 1027  ls
+ 1028  ll
+ 1029  cd Drivers/
+ 1030  ls
+ 1031  cd ..
+ 1032  ls
+ 1033  cd OV5640_F407V-C/
+ 1034  ls
+ 1035  ll
+ 1036  cd Src/
+ 1037  ls
+ 1038  ll
+ 1039  cd ..
+ 1040  ls
+ 1041  cd Drivers/
+ 1042  ;ls
+ 1043  ls
+ 1044  ll
+ 1045  cd STM32F4xx_HAL_Driver/
+ 1046  ls
+ 1047  ll
+ 1048  cd Src/
+ 1049  s
+ 1050  ls
+ 1051  cd ..
+ 1052  ls
+ 1053  cd ..
+ 1054  ls
+ 1055  cd ..
+ 1056  grep 2592 * -rn
+ 1057  cd ..
+ 1058  ls
+ 1059  cd OV5640_F407V-C/
+ 1060  ls
+ 1061  ll
+ 1062  grep 1080 * -rn
+ 1063  grep 5640  * -rn
+ 1064  cd MY_BSP/
+ 1065  ls
+ 1066  ll
+ 1067  cd ..
+ 1068  ls
+ 1069  cd ..
+ 1070  ls
+ 1071  cd OV5640-Camera-Board-\(C\)-Code/
+ 1072  ls
+ 1073  ll
+ 1074  cd 
+ 1075  cd src
+ 1076  cd aws/
+ 1077  ls
+ 1078  grep if *py
+ 1079  grep if d*py
+ 1080  vi dephase.csv 
+ 1081  vi dePhase.py 
+ 1082  cp dephase.csv half_dephase.csv 
+ 1083  python dePhase.py 
+ 1084  grep dephase *py
+ 1085  more dephase420ml_home.py 
+ 1086  cp dephase.csv 10000dephase.csv 
+ 1087  wc dephase.csv 
+ 1088  vi 10000dephase.csv 
+ 1089  vi pAtt1PerDevice.py
+ 1090  python pAtt1PerDevice.py
+ 1091  cp  pAtt1PerDevice.py 16000_pAtt1PerDevice.py 
+ 1092  vi 16000_pAtt1PerDevice.py 
+ 1093  python 16000_pAtt1PerDevice.py 
+ 1094  cp 16000_pAtt1PerDevice.py 16000_pAtt1_failDevice.py 
+ 1095  vi 16000_pAtt1_failDevice.py 
+ 1096  python 16000_pAtt1_failDevice.py 
+ 1097  vi de16000.py 
+ 1098  python de16000.py 
+ 1099  vi de16000.py 
+ 1100  python de16000.py 
+ 1101  vi de16000.py 
+ 1102  python de16000.py 
+ 1103  vi de16000.py 
+ 1104  python de16000.py 
+ 1105  vi de16000.py 
+ 1106  python de16000.py 
+ 1107  ls
+ 1108  vi 39out_candleMl_home.py 
+ 1109  python 39out_candleMl_home.py 
+ 1110  vi  39out_candleMl_home.txt
+ 1111  vi 39out_candleMl_home.py 
+ 1112  ls *39*
+ 1113  rm minOut_39out_candleMl_home.*
+ 1114  rm no1sum_39out_candleMl_home.*
+ 1115  vi a61_39out_candleMl_home.py 
+ 1116  python a61_39out_candleMl_home.py 
+ 1117  vi a61_39out_candleMl_home.txt 
+ 1118  vi a61_39out_candleMl_home.py 
+ 1119  python a61_39out_candleMl_home.py 
+ 1120  vi a61_39out_candleMl_home.py 
+ 1121  vi a61_39out_candleMl_home.txt 
+ 1122  python 39out_candleMl_home.py 
+ 1123  vi 39out_candleMl_home.txt
+ 1124  vi 39out_candleMl_home.py 
+ 1125  python
+ 1126  cd 
+ 1127  ls
+ 1128  cd src
+ 1129  ls
+ 1130  cd py/
+ 1131  git clone https://github.com/pybluez/pybluez.git
+ 1132  cd pybluez/
+ 1133  ls
+ 1134  cd examples/
+ 1135  ls
+ 1136  cd simple/
+ 1137  ls
+ 1138  python inquiry.py 
+ 1139  cd ..
+ 1140  pip install pybluez
+ 1141  sudo pip install pybluez
+ 1142  sudo apt-get install libbluetooth-dev
+ 1143  sudo pip install pybluez
+ 1144  cd pybluez/
+ 1145  cd examples/
+ 1146  ls
+ 1147  cd simple/
+ 1148  python inquiry.py 
+ 1149  vi inquiry.py 
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  cd ble/
+ 1154  ls
+ 1155  python scan.py 
+ 1156  sudo pip install gattlib
+ 1157  python scan.py 
+ 1158  dmesg
+ 1159  python scan.py 
+ 1160  ls
+ 1161  python read_name.py 
+ 1162  python beacon_scan.py 
+ 1163  vi scan.py 
+ 1164  ls
+ 1165  cd ..
+ 1166  ls
+ 1167  cd bluezchat/
+ 1168  ls
+ 1169  python bluezchat.py 
+ 1170  sudo pip install glade
+ 1171  ls
+ 1172  sudo apt install glade
+ 1173  sudo pip install glade
+ 1174  python bluezchat.py 
+ 1175  ls
+ 1176  cd ..
+ 1177  ls
+ 1178  vi requirements.txt 
+ 1179  ls
+ 1180  python
+ 1181  ls
+ 1182  cd ..
+ 1183  ls
+ 1184  python
+ 1185  dmesg | grep tty
+ 1186  cd ..
+ 1187  ls
+ 1188  cd src
+ 1189  cd aws
+ 1190  ls
+ 1191  vi treeView.py
+ 1192  python treeView.py
+ 1193  sudo pip install IPython
+ 1194  python treeView.py
+ 1195  sudo pip install pydotplus
+ 1196  python treeView.py
+ 1197  ll *ml*
+ 1198  cp 420ml_home.py view420ml_home.py
+ 1199  vi view420ml_home.py 
+ 1200  python view420ml_home.py 
+ 1201  vi view420ml_home.py 
+ 1202  python view420ml_home.py 
+ 1203  ls
+ 1204  ls *png
+ 1205  ls *png -l
+ 1206  python view420ml_home.py 
+ 1207  vi view420ml_home.py 
+ 1208  python view420ml_home.py 
+ 1209  vi view420ml_home.py 
+ 1210  python view420ml_home.py 
+ 1211  vi view420ml_home.py 
+ 1212  python view420ml_home.py 
+ 1213  vi view420ml_home.py 
+ 1214  python view420ml_home.py 
+ 1215  vi view420ml_home.py 
+ 1216  python view420ml_home.py 
+ 1217  vi view420ml_home.py 
+ 1218  python view420ml_home.py 
+ 1219  vi view420ml_home.py 
+ 1220  python view420ml_home.py 
+ 1221  vi view420ml_home.py 
+ 1222  python view420ml_home.py 
+ 1223  vi rf_9.png 
+ 1224  python view420ml_home.py 
+ 1225  vi  view420ml_home.py 
+ 1226  python view420ml_home.py 
+ 1227  vi  view420ml_home.py 
+ 1228  python view420ml_home.py 
+ 1229  vi  view420ml_home.py 
+ 1230  python view420ml_home.py 
+ 1231  vi  view420ml_home.py 
+ 1232  python view420ml_home.py 
+ 1233  vi  view420ml_home.py 
+ 1234  python view420ml_home.py 
+ 1235  vi  view420ml_home.py 
+ 1236  python view420ml_home.py 
+ 1237  vi  view420ml_home.py 
+ 1238  python view420ml_home.py 
+ 1239  vi  view420ml_home.py 
+ 1240  python view420ml_home.py 
+ 1241  vi  view420ml_home.py 
+ 1242  python view420ml_home.py 
+ 1243  vi  view420ml_home.py 
+ 1244  python view420ml_home.py 
+ 1245  rm gb*png
+ 1246  ls
+ 1247  ll *png
+ 1248  rm rfPNG
+ 1249  rm rf*png
+ 1250  ls
+ 1251  vi  view420ml_home.py 
+ 1252  sudo apt install kwrite
+ 1253  kwrite
+ 1254  python diffPhase.py 
+ 1255  ls di*
+ 1256  python diff_39out_candleMl_home.py
+ 1257  cat diff_39out_candleMl_home.txt
+ 1258  python diff_39out_candleMl_home.py 
+ 1259  vi diff_39out_candleMl_home.txt 
+ 1260  python diff_39out_candleMl_home.py 
+ 1261  cat diff_39out_candleMl_home.txt 
+ 1262  python diff_39out_candleMl_home.py 
+ 1263  nvidia-smi 
+ 1264  locate ttc
+ 1265  ls
+ 1266  firefox
+ 1267  sudo apt install pcscd
+ 1268  cd 
+ 1269  cd src
+ 1270  cd c
+ 1271  ls
+ 1272  cd 
+ 1273  cd /opt/
+ 1274  cd android-studio/
+ 1275  ./bin/studio.sh 
+ 1276  cd ..
+ 1277  cd 
+ 1278  cd src
+ 1279  cd java/
+ 1280  ls
+ 1281  cd tmp/
+ 1282  ls
+ 1283  rm -rf blood-velocity/
+ 1284  tar -xzvf 509MPAndroidChart.tgz 
+ 1285  ls
+ 1286  cd MPAndroidChart/
+ 1287  find ./ -name OpenSans-Regular.ttf
+ 1288  mkdir ../../blood-velocity/MPChartExample/src/main/assets
+ 1289  cp ./MPChartExample/src/main/assets/OpenSans-Regular.ttf  ../../blood-velocity/MPChartExample/src/main/assets
+ 1290  cp ./MPChartExample/src/main/assets/OpenSans-Light.ttf  ../../blood-velocity/MPChartExample/src/main/assets
+ 1291  cd ..
+ 1292  cd blood-velocity/
+ 1293  ls
+ 1294  git status
+ 1295  git add MPChartExample/src/main/assets/
+ 1296  git status
+ 1297  git commit -m "add fonts"
+ 1298  git push
+ 1299  dmesg | grep tty
+ 1300  /opt/processing-3.4/
+ 1301  /opt/processing-3.4/processing
+ 1302  ps
+ 1303  ps -axl
+ 1304  sudo killall chrome
+ 1305  ps -axl | grep chrome
+ 1306  sudo killall chrome
+ 1307  ps -axl | grep chrome
+ 1308  sudo killall chrome
+ 1309  ps -axl | grep chrome
+ 1310  ps -axl 
+ 1311  sudo reboot
+ 1312  cd src
+ 1313  cd aws
+ 1314  ls
+ 1315  vi 39out_candleMl_home.py 
+ 1316  exit
+ 1317  demsg | grep tty
+ 1318  dmesg | grep tty
+ 1319  dmesg 
+ 1320  dmesg | grep tty
+ 1321  cd 
+ 1322  alex
+ 1323  sudo apt install axel
+ 1324  cd Downloads/
+ 1325  ls
+ 1326  cd ..
+ 1327  mkdir software
+ 1328  cd software/
+ 1329  axel -n 100 https://pirateproxy.live/torrent/5274295/Dragon_Naturally_Speaking_Medical
+ 1330  axel -n 100 http://wcarchive.cdrom.com/pub/scansoft/DragonPreferred10.1ENX_078.exe
+ 1331  wget  http://wcarchive.cdrom.com/pub/scansoft/DragonPreferred10.1ENX_078.exe
+ 1332  wget http://wcarchive.cdrom.com/pub/scansoft/DragonPreferred10.1ENX_078.exe
+ 1333  dmesg 
+ 1334  reboot
+ 1335  vi pub.txt
+ 1336  hrep hsu pub.txt 
+ 1337  grep hsu pub.txt 
+ 1338  grep Hsu pub.txt 
+ 1339  c
+ 1340  cd processing-3.4/
+ 1341  ./processing
+ 1342  export
+ 1343  export | grep J
+ 1344  ll /usr/lib/jvm/java-8-openjdk-amd64
+ 1345  ll /usr/lib/jvm/java-8-openjdk-amd
+ 1346  ll /usr/lib/jvm/
+ 1347  vi .bashrc 
+ 1348  ls
+ 1349  cd ..
+ 1350  ls
+ 1351  source build/envsetup.sh 
+ 1352  lunch rk3399_box-userdebug
+ 1353  locate rk3399_box
+ 1354  sudo updatedb
+ 1355  locate rk3399_box
+ 1356  cd device/rockchip/rk3399/
+ 1357  ls
+ 1358  locate rk3399_box
+ 1359  cd rk3399_box/
+ 1360  ls
+ 1361  ll
+ 1362  vi BoardConfig.mk 
+ 1363  cat *
+ 1364  ls
+ 1365  vi system.prop 
+ 1366  export | grep J
+ 1367  ll /usr/lib/jvm/java-11-openjdk-amd64
+ 1368  mkdir rockpi4-android
+ 1369  cd rockpi4-android
+ 1370  ~/bin/repo init -u https://github.com/radxa/rockpi4-android-tv-7.1.git -m rockchip_tv_nougat_release.xml
+ 1371  repo sync -j$(nproc) -c
+ 1372  cd kernel/
+ 1373  make rockchip_defconfig
+ 1374  make rk3399-rockpi-4b.img -j$(nproc)
+ 1375  cd ..
+ 1376  ls
+ 1377  lunch rk3399_box-userdebug
+ 1378  source build/envsetup.sh
+ 1379  lunch rk3399_box-userdebug
+ 1380  make -j$(nproc)
+ 1381  sudo add-apt-repository ppa:openjdk-r/ppa
+ 1382  sudo apt install openjdk-8-jdk openjdk-8-jre
+ 1383  sudo add-apt-repository --remove ppa:openjdk-r/ppa
+ 1384  vi ~/.bashrc 
+ 1385  cate ~/.bashrc 
+ 1386  cat ~/.bashrc 
+ 1387  ll /usr/lib/jvm/java-8-openjdk-amd64
+ 1388  source build/envsetup.sh
+ 1389  lunch rk3399_box-userdebug
+ 1390  make -j$(nproc)
+ 1391  cat ~/.bashrc 
+ 1392  make -j$(nproc)
+ 1393  sudo nano /etc/apt/sources.list
+ 1394  sudo apt-get update && sudo apt-get install libesd0-dev
+ 1395  sudo apt-get install libesd0-dev
+ 1396  make -j$(nproc)
+ 1397  ls build*
+ 1398  grep allprojects *
+ 1399  ls
+ 1400  cat build/core/ninja.mk
+ 1401  locate build.gradle
+ 1402  make
+ 1403  ll system/tools/aidl/aidl_language_l.ll
+ 1404  locate build.gradle | grep aidl
+ 1405  locate build.gradle | grep tools
+ 1406  make
+ 1407  locate sign
+ 1408  locate sign | grep png
+ 1409  locate sign.png
+ 1410  cd 
+ 1411  cd src
+ 1412  cd D-DWM-PG1.7#C配置资料包/
+ 1413  ls
+ 1414  cd MDK5/
+ 1415  vi install.txt
+ 1416  cat  install.txt
+ 1417  exit
+ 1418  ls
+ 1419  hcidump
+ 1420  sudo apt  install bluez-hcidump
+ 1421  hcidump
+ 1422  ls
+ 1423  hcidump --help
+ 1424  hcidump
+ 1425  hcidump -w 1.txt
+ 1426  ls
+ 1427  1.txt
+ 1428  hcidump -w 1.txt
+ 1429  cat 1.txt 
+ 1430  hcidump -w 1.txt -a
+ 1431  cat 1.txt 
+ 1432  cd ..
+ 1433  cd c
+ 1434  cd ..
+ 1435  cd esp32/
+ 1436  ls
+ 1437  cd BLE_server/
+ 1438  ls
+ 1439  cd BLE_server/
+ 1440  ls
+ 1441  od -c kodential.ino 
+ 1442  dos2unix kodential.ino 
+ 1443  od -c kodential.ino 
+ 1444  ll ~/*sh
+ 1445  ~/i.sh kodential.ino 
+ 1446  cd /media/
+ 1447  ls
+ 1448  cd itemhsu/
+ 1449  ls
+ 1450  ll
+ 1451  cd 3661-6563/
+ 1452  ls
+ 1453  ll
+ 1454  du -g
+ 1455  fu
+ 1456  du
+ 1457  du -h
+ 1458  cd PRIVATE/AVCHD/
+ 1459  ls
+ 1460  cd BDMV/
+ 1461  ls
+ 1462  cd STREAM/
+ 1463  ls
+ 1464  ll
+ 1465  ffplay  00000.MTS 
+ 1466  ffmpeg -i   00000.MTS 
+ 1467  cd /mnt
+ 1468  ls
+ 1469  cd home/
+ 1470  ls
+ 1471  cd 
+ 1472  cd Downloads/
+ 1473  ls
+ 1474  df
+ 1475  ls
+ 1476  du -h -d1
+ 1477  rm -rf Ask.the.StoryBots.S0*
+ 1478  cd GT130551014_20181208/
+ 1479  ls
+ 1480  cd ..
+ 1481  ls
+ 1482  du -h -d1
+ 1483  cd GT130551014_20181208/
+ 1484  ls
+ 1485  cd ..
+ 1486  ls
+ 1487  ls *pdf
+ 1488  df
+ 1489  cd ..
+ 1490  cd Documents/
+ 1491  ls
+ 1492  du -h -d1
+ 1493  cd pi
+ 1494  ls
+ 1495  cd ..
+ 1496  rm -rf pi
+ 1497  du -h -d1
+ 1498  cd ..
+ 1499  ls
+ 1500  du -h -d1
+ 1501  rm -rf ILSVRC12/
+ 1502  rm -rf .wine/
+ 1503  du -h -d1
+ 1504  rm -rf .codelite/
+ 1505  rm -rf .bazel/
+ 1506  rm -rf .gradle/
+ 1507  rm -rf .vscode/
+ 1508  du -h -d1
+ 1509  cd data
+ 1510  ls
+ 1511  cd ..
+ 1512  rm -rf data
+ 1513  ls
+ 1514  du -h -d1
+ 1515  rm -rf STM32Cube
+ 1516  rm -rf .stm32cubemx/
+ 1517  cd projects/
+ 1518  ls
+ 1519  cd ..
+ 1520  rm -rf projects/
+ 1521  cd obj/
+ 1522  ls
+ 1523  cd ..
+ 1524  rm -rf obj/
+ 1525  ls
+ 1526  du -h -d1
+ 1527  rm -rf caffe
+ 1528  ls
+ 1529  rm -rf R/
+ 1530  ls
+ 1531  rm -rf STM32CubeMX/
+ 1532  rm -rf node_modules/
+ 1533  ls
+ 1534  cd _installer/
+ 1535  ls
+ 1536  cd ..
+ 1537  rm -rf _installer/
+ 1538  ls
+ 1539  ll *log
+ 1540  rm hs*log
+ 1541  ls
+ 1542  rm -rf octave/
+ 1543  ls
+ 1544  cd myocs/
+ 1545  ls
+ 1546  more ocs_install.sh 
+ 1547  ls
+ 1548  cd ..
+ 1549  rm -rf myocs/
+ 1550  sudo rm -rf myocs/
+ 1551  ls
+ 1552  ls *glade*
+ 1553  rm *glade*
+ 1554  ls
+ 1555  df
+ 1556  cd /mnt
+ 1557  ls
+ 1558  du -h -d1
+ 1559  ll mnt
+ 1560  ll mnt/matthew/
+ 1561  rm mnt/matthew/
+ 1562  rm mnt/matthew/ -r
+ 1563  sudo rm mnt/matthew/ -r
+ 1564  sudo rm mnt -r
+ 1565  ls
+ 1566  ll proc/
+ 1567  sudo rm -r proc
+ 1568  ll sys
+ 1569  sudo rm -r sys
+ 1570  du -h -d1
+ 1571  ll src
+ 1572  ll srv
+ 1573  sudo rm -r srv
+ 1574  sudo rm -r cdrom
+ 1575  sudo rm -r data
+ 1576  sudo rm -r .gvfs
+ 1577  sudo rm -r media
+ 1578  sudo rm -r dev
+ 1579  sudo rm -r root
+ 1580  ll
+ 1581  cd boot/
+ 1582  ls
+ 1583  ll /boot
+ 1584  ls
+ 1585  ll
+ 1586  ls
+ 1587  cd ..
+ 1588  ls
+ 1589  cd snap/
+ 1590  ls
+ 1591  cd ..
+ 1592  rm -rf snap/
+ 1593  sudo rm -rf snap/
+ 1594  ls
+ 1595  sudo rm -rf bin
+ 1596  sudo rm -rf boot
+ 1597  ls
+ 1598  rm initrd.img
+ 1599  sudo rm initrd.img
+ 1600  sudo rm initrd.img.old 
+ 1601  sudo rm vmlinuz*
+ 1602  ls
+ 1603  cd opt/
+ 1604  ;s
+ 1605  ll
+ 1606  cd p5/
+ 1607  ls
+ 1608  cd ..
+ 1609  ll
+ 1610  cd ..
+ 1611  rm -rf opt/
+ 1612  sudo rm -rf opt/
+ 1613  ls
+ 1614  ll
+ 1615  sudo rm -rf lib*
+ 1616  sudo rm -rf sbin
+ 1617  ls
+ 1618  sudo rm -rf core
+ 1619  ls
+ 1620  cd home/
+ 1621  ls
+ 1622  cd itemhsu/
+ 1623  ls
+ 1624  cd 
+ 1625  ls
+ 1626  rm lstm*png
+ 1627  rm gru*png
+ 1628  ls
+ 1629  rm fab*
+ 1630  ls
+ 1631  ll
+ 1632  ll core
+ 1633  rm core
+ 1634  ls
+ 1635  cd Templates/
+ 1636  ls
+ 1637  cd ..
+ 1638  rm -rf Templates/
+ 1639  ls
+ 1640  cd snap/
+ 1641  ls
+ 1642  cd ..
+ 1643  rm -rf snap/
+ 1644  ls
+ 1645  cd sketchbook/
+ 1646  ls
+ 1647  cd ..
+ 1648  rm -rf sketchbook/
+ 1649  ls
+ 1650  more pay.txt 
+ 1651  ls
+ 1652  more medical.txt 
+ 1653  df
+ 1654  du
+ 1655  df
+ 1656  sudo updatedb
+ 1657  locate  rk3399_box-userdebug
+ 1658  locate  rk3399_box
+ 1659  du
+ 1660  df
+ 1661  ls
+ 1662  du -h -d1
+ 1663  du -h -d1 | grep ro
+ 1664  df
+ 1665  exit
+ 1666  wireshark
+ 1667  sudo apt install wireshark-qt
+ 1668  wireshark
+ 1669  sudo wireshark
+ 1670  q
+ 1671  sudo wireshark
+ 1672  exit
+ 1673  sudo hcitool -i hci0 lescan
+ 1674  sudo hcitool -i hci0
+ 1675  sudo hcitool -i hci0 lescan
+ 1676  gatttool -I
+ 1677  sudo python pybluez/examples/ble/read_name.py
+ 1678  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1679  git clone https://github.com/AravinthPanch/nuimo-bluetooth-low-energy-python.git
+ 1680  cp nuimo-bluetooth-low-energy-python/Adafruit_BluefruitLE/services/uart.py ./
+ 1681  ls
+ 1682  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1683  more pybluez/examples/ble/read_name.py 
+ 1684  history
+ 1685  vi pybluez/examples/ble/read_name.py
+ 1686  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1687  cat  pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1688  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1689  locate BLERemoteDescriptor.cpp 
+ 1690  vi /mnt/home/itemhsu/.arduino15/packages/esp32/hardware/esp32/1.0.2/libraries/BLE/src/BLERemoteDescriptor.cpp
+ 1691  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1692  od -c *.c
+ 1693  ps -axl | grep ad
+ 1694  ps -axl | grep adr
+ 1695  ps -axl | grep ard
+ 1696  ps -axl | grep Ard
+ 1697  ps -axl | grep ard
+ 1698  ps -axl | grep AR
+ 1699  ps -axl | grep Ar
+ 1700  ps -axl | grep ar
+ 1701  cd 
+ 1702  cd Downloads/
+ 1703  ll
+ 1704  ls *zip
+ 1705  ll *zip
+ 1706  cd /media/
+ 1707  ls
+ 1708  cd itemhsu/
+ 1709  ls
+ 1710  cd system/
+ 1711  ls
+ 1712  rm * -rf
+ 1713  sudo rm * -rf
+ 1714  ls
+ 1715  cd 
+ 1716  cd bin/
+ 1717  ./balenaEtcher-1.5.50-x64.AppImage 
+ 1718  exit
+ 1719  dmesg
+ 1720  dmesg | grep ble
+ 1721  dmesg | grep blue
+ 1722  dmesg | grep Blue
+ 1723  dmesg | grep BL
+ 1724  cd 
+ 1725  cd src
+ 1726  cd py
+ 1727  ls
+ 1728  sudo apt-get install pi-bluetooth
+ 1729  sudo apt-get install bluetooth bluez
+ 1730  sudo apt-get install bluez python-bluez
+ 1731  sudo hciconfig hci0 piscan
+ 1732  sudo hciconfig 
+ 1733  sudo hciconfig hci0 piscan
+ 1734  sudo python /usr/share/doc/python-bluez/examples/simple/inquiry.py
+ 1735  sudo hciconfig hci0 name 'Devi'
+ 1736  sudo python /usr/share/doc/python-bluez/examples/simple/inquiry.py
+ 1737  sudo python /usr/share/doc/python-bluez/examples/simple/rfcomm-client.py 
+ 1738  ls
+ 1739  python
+ 1740  sudo python
+ 1741  vi bleScan.py
+ 1742  python bleScan.py
+ 1743  sudo python bleScan.py
+ 1744  dmesg | grep tty
+ 1745  sudo python /usr/share/doc/python-bluez/examples/simple/inquiry.py
+ 1746  sudo python /usr/share/doc/python-bluez/examples/simple/rfcomm-client.py 
+ 1747  python bleScan.py
+ 1748  sudo python bleScan.py
+ 1749  flutter channel master
+ 1750  sudo apt install flutter 
+ 1751  ls
+ 1752  sudo python bleScan.py 
+ 1753  find ./ -name ble
+ 1754  sudo python pybluez/examples/ble/scan.py 
+ 1755  sudo python pybluez/examples/ble/read_name.py 
+ 1756  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1757  more pybluez/examples/ble/read_name.py 
+ 1758  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1759  sudo python pybluez/examples/ble/scan.py 
+ 1760  sudo python bleScan.py 
+ 1761  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1762  python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1763  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1764  hcitool lecc 3C:71:BF:D1:9C:66
+ 1765  sudo hcitool lecc 3C:71:BF:D1:9C:66
+ 1766  sudo hcitool 
+ 1767  sudo hcitool ledc
+ 1768  sudo hcitool ledc 3C:71:BF:D1:9C:66
+ 1769  sudo hcitool lecc 3C:71:BF:D1:9C:66
+ 1770  sudo hcitool ledc 3C:71:BF:D1:9C:66
+ 1771  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1772  sudo hcitool 
+ 1773  sudo hcitool leinfo 3C:71:BF:D1:9C:66
+ 1774  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1775  sudo python pybluez/examples/ble/scan.py 
+ 1776  sudo python bleScan.py 
+ 1777  sudo python pybluez/examples/ble/scan.py 
+ 1778  sudo hcitool leinfo 3C:71:BF:D1:9C:66
+ 1779  sudo hcitool leinfo 
+ 1780  sudo hcitool leinfo 3C:71:BF:D1:9C:66
+ 1781  sudo hcitool 
+ 1782  sudo hcitool lescan
+ 1783  sudo hcitool leinfo 3C:71:BF:D1:9C:66
+ 1784  sudo hcitool lescan
+ 1785  sudo hcitool
+ 1786  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1787  sudo hcitool leinfo 3C:71:BF:D1:9C:66
+ 1788  sudo hcitool leinfo 3C:71:BF:D1:9C:60
+ 1789  sudo hcitool leinfo 3C:71:BF:D1:9C:66
+ 1790  sudo hcitool lescan
+ 1791  sudo python bleScan.py 
+ 1792  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1793  sudo python bleScan.py 
+ 1794  sudo python pybluez/examples/ble/scan.py 
+ 1795  sudo hcitool leinfo 3C:71:BF:D1:9C:66
+ 1796  sudo hcitool lecc 3C:71:BF:D1:9C:66
+ 1797  sudo hcitool ledc 71
+ 1798  gatttool -I
+ 1799  sudo python pybluez/examples/ble/read_name.py 3C:71:BF:D1:9C:66
+ 1800  sudo updatedb
+ 1801  locate BLE_uart
+ 1802  cd /mnt/home/itemhsu/.arduino15/packages/esp32/hardware/esp32/1.0.2/libraries
+ 1803  ls
+ 1804  grep E50E24DCCA9E * -rn
+ 1805  cd ..
+ 1806  ls
+ 1807  locate ino
+ 1808  locate ino | grep itemhsu
+ 1809  locate \.ino | grep itemhsu
+ 1810  grep E50E24DCCA9E /mnt/home/itemhsu/src/esp32/BLE_server/BLE_server/BLE_server.ino
+ 1811  grep Run /mnt/home/itemhsu/src/esp32/BLE_server/BLE_server/BLE_server.ino
+ 1812  grep RUN /mnt/home/itemhsu/src/esp32/BLE_server/BLE_server/BLE_server.ino
+ 1813  vi /mnt/home/itemhsu/src/esp32/BLE_server/BLE_server/BLE_server.ino
+ 1814  cd 
+ 1815  cd src/py/
+ 1816  history
+ 1817  vi uart.py 
+ 1818  locate uart.py
+ 1819  grep uart /mnt/home/itemhsu/src/py/nuimo-bluetooth-low-energy-python/Adafruit_BluefruitLE/services/* -rn
+ 1820  vi /mnt/home/itemhsu/src/py/nuimo-bluetooth-low-energy-python/Adafruit_BluefruitLE/services/__init__.py
+ 1821  vi /mnt/home/itemhsu/src/py/nuimo-bluetooth-low-energy-python/Adafruit_BluefruitLE/services/servicebase.py 
+ 1822  vi /mnt/home/itemhsu/src/py/nuimo-bluetooth-low-energy-python/Adafruit_BluefruitLE/services/uart.py 
+ 1823  cd nuimo-bluetooth-low-energy-python/
+ 1824  grep start_notify * -rn 
+ 1825  diff Adafruit_BluefruitLE/interfaces/gatt.py Adafruit_BluefruitLE/bluez_dbus/gatt.py
+ 1826  grep start_notify * -rn 
+ 1827  wc Adafruit_BluefruitLE/interfaces/gatt.py
+ 1828  wc Adafruit_BluefruitLE/bluez_dbus/gatt.py
+ 1829  wc Adafruit_BluefruitLE/corebluetooth/gatt.py
+ 1830  vi Adafruit_BluefruitLE/interfaces/gatt.py
+ 1831  vi Adafruit_BluefruitLE/bluez_dbus/gatt.py
+ 1832  cd ..
+ 1833  ls
+ 1834  cd pybluez/
+ 1835  ls
+ 1836  grep subs * -rn
+ 1837  ls
+ 1838  cd bluez/
+ 1839  ls
+ 1840  cd ..
+ 1841  ls
+ 1842  cd ..
+ 1843  git clone https://github.com/mbientlab/pygattlib.git
+ 1844  pip install gattlib
+ 1845  ls
+ 1846  cd pygattlib/
+ 1847  ls
+ 1848  cd examples/
+ 1849  ls
+ 1850  vi read_callback.py 
+ 1851  ls
+ 1852  vi read.py 
+ 1853  hidtory
+ 1854  history
+ 1855  sudo python read.py  3C:71:BF:D1:9C:66
+ 1856  vi read.py 
+ 1857  ls
+ 1858  sudo python read.py  3C:71:BF:D1:9C:66
+ 1859  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1860  ps
+ 1861  vi receive_notification.py 
+ 1862  ls
+ 1863  vi read_callback.py 
+ 1864  sudo python read_callback.py  3C:71:BF:D1:9C:66
+ 1865  vi read_callback.py 
+ 1866  sudo python read_callback.py  3C:71:BF:D1:9C:66
+ 1867  vi read_callback.py 
+ 1868  sudo python read_callback.py  3C:71:BF:D1:9C:66
+ 1869  vi read_callback.py 
+ 1870  sudo python read_callback.py  3C:71:BF:D1:9C:66
+ 1871  vi read_callback.py 
+ 1872  sudo python read_callback.py  3C:71:BF:D1:9C:66
+ 1873  vi read_callback.py 
+ 1874  sudo python read_callback.py  3C:71:BF:D1:9C:66
+ 1875  vi read_callback.py 
+ 1876  vi receive_notification.py 
+ 1877  sudo python read_callback.py  3C:71:BF:D1:9C:66
+ 1878  python sudo receive_notification.py  3C:71:BF:D1:9C:66
+ 1879  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1880  ps
+ 1881  ps -axl
+ 1882  kill -9 22196
+ 1883  sudo kill -9 22196
+ 1884  ps -axl
+ 1885  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1886  ps
+ 1887  ps -axl
+ 1888  sudo kill -9 23974
+ 1889  ps -axl
+ 1890  sudo kill -9 23972
+ 1891  ps -axl
+ 1892  ps -axl | grep python
+ 1893  sudo kill -9 16707
+ 1894  ps -axl | grep python
+ 1895  sudo kill -9 16706
+ 1896  ps -axl | grep python
+ 1897  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1898  ps -axl | grep python
+ 1899  sudo kill -9 24278
+ 1900  sudo kill -9 24277
+ 1901  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1902  vi receive_notification.py
+ 1903  ps -axl | grep python
+ 1904  sudo kill -9 24427
+ 1905  sudo kill -9 24426
+ 1906  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1907  ls
+ 1908  vi receive_notification.py 
+ 1909  ps -axl | grep python
+ 1910  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1911  ps -axl | grep python
+ 1912  sudo kill -9 25465
+ 1913  sudo kill -9 25466
+ 1914  vi receive_notification.py 
+ 1915  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1916  ps -axl | grep python
+ 1917  sudo kill -9 28486
+ 1918  sudo kill -9 28485
+ 1919  sudo kill -9 28489
+ 1920  ps -axl | grep python
+ 1921  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1922  ps -axl | grep python
+ 1923  sudo kill -9 3360
+ 1924  sudo kill -9 3359
+ 1925  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1926  ps -axl | grep python
+ 1927  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1928  ps -axl | grep python
+ 1929  sudo kill -9 3411
+ 1930  sudo kill -9 3410
+ 1931  sudo python read_async.py  3C:71:BF:D1:9C:66
+ 1932  sudo python read.py  3C:71:BF:D1:9C:66
+ 1933  sudo python read_callback.py  3C:71:BF:D1:9C:66
+ 1934  sudo python read.py  3C:71:BF:D1:9C:66
+ 1935  grep E50E24DCCA9E *
+ 1936  ps -axl | grep python
+ 1937  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1938  ps -axl | grep python
+ 1939  sudo kill -9 7594
+ 1940  sudo kill -9 7595
+ 1941  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1942  vi receive_notification.py
+ 1943  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1944  vi receive_notification.py
+ 1945  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1946  vi receive_notification.py
+ 1947  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1948  ps -axl | grep python
+ 1949  sudo kill -9 7595
+ 1950  ps -axl | grep python
+ 1951  sudo kill -9 10147
+ 1952  sudo kill -9 10148
+ 1953  ps -axl | grep python
+ 1954  vi receive_notification.py
+ 1955  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1956  ps -axl | grep python
+ 1957  sudo kill -9 11367
+ 1958  sudo kill -9 11368
+ 1959  vi receive_notification.py
+ 1960  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1961  ps -axl | grep python
+ 1962  sudo kill -9 12019
+ 1963  sudo kill -9 12020
+ 1964  ps -axl | grep python
+ 1965  sudo python receive_notification.py  3C:71:BF:D1:9C:66
+ 1966  ps -axl | grep python
+ 1967  sudo kill -9 12134
+ 1968  sudo kill -9 12135
+ 1969  cd 
+ 1970  wget 'https://storage.googleapis.com/git-repo-downloads/repo' -P ~/bin
+ 1971  chmod +x ~/bin/repo
+ 1972  sudo apt-get update
+ 1973  sudo apt-get install openjdk-8-jdk android-tools-adb bc bison build-essential curl flex g++-multilib gcc-multilib gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc yasm zip zlib1g-dev
+ 1974  apt-cache search esd
+ 1975  apt-cache search libesd
+ 1976  sudo apt install libesd-java
+ 1977  sudo apt-get install openjdk-8-jdk android-tools-adb bc bison build-essential curl flex g++-multilib gcc-multilib gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc yasm zip zlib1g-dev
+ 1978  vi .bashrc 
+ 1979  exit
+ 1980  ls
+ 1981  rm -rf rockpi4-android/
+ 1982  df
+ 1983  du
+ 1984  df
+ 1985  df -h -d1
+ 1986  df -h 
+ 1987  cd /mnt
+ 1988  ls
+ 1989  cd home/
+ 1990  ls
+ 1991  cd itemhsu/
+ 1992  ls
+ 1993  ll Music/
+ 1994  rm -rf Music/
+ 1995  ll Videos/
+ 1996  ll Videos/tm/
+ 1997  ll Videos/
+ 1998  ls
+ 1999  cd ..
+ 2000  ls
+ 2001  cd ble
+ 2002  cp ../../esp32/BLE_server/BLE_server ./
+ 2003  cp ../../esp32/BLE_server/BLE_server ./ -R
+ 2004  ls
+ 2005  cd BLE_server/
+ 2006  ls
+ 2007  rm kodential.ino~
+ 2008  ls
+ 2009  cd ..
+ 2010  ls
+ 2011  history | grep python
+ 2012  sudo updatedb
+ 2013  locate receive_notification.py
+ 2014  cp /mnt/home/itemhsu/src/py/pygattlib/examples/receive_notification.py ./
+ 2015  ls
+ 2016  history | grep python
+ 2017  locate pybluez/examples/ble/read_name.py
+ 2018  more /mnt/home/itemhsu/src/py/pybluez/examples/ble/read_name.py
+ 2019  cp /mnt/home/itemhsu/src/py/pybluez/examples/ble/read_name.py ./
+ 2020  ls
+ 2021  vi receive_notification.py 
+ 2022  history > h.txt
